@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">TextSize</string>
+
+    <string name="text_input">Text Input</string>
+    <string name="text_size">0</string>
+
+    <string-array name="preference">
+        <item>NONE</item>
+        <item>FONT SIZE IN HALF</item>
+    </string-array>
+    <string-array name="preference_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
 </resources>

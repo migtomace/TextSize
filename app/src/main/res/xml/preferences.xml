@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_remember_input"
+        android:title="Preferences" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/preference"
+        android:entryValues="@array/preference_values"
+        android:key="pref_fontSize"
+        android:title="List Preferences" />
+</PreferenceScreen>
